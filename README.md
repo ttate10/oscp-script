@@ -3,7 +3,7 @@ to-do
 Implement enumeration methodology:
 
 ~1. sudo - l~
-2. suid
+~2. suid~
 3. check/opt
 4. crontab
 5. lse*
