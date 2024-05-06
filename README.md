@@ -11,6 +11,7 @@ Implement enumeration methodology:
 7. enum4linux*
 8. linpeas*
 9. kernel
+
 Additional feature: look at traffic with netstat
 Additional feature: grep / ls files with read/write access to see if a misconfig jumps out
 Additional feature: implement Trivy - vulnerability scanner
