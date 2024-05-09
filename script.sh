@@ -7,4 +7,4 @@
 target_ip="10.0.0.219"
 
 echo
-nmap -v $target_ip | awk '/^PORT/{flag=1} /^$/{flag=0} flag {print}'
+nmap -sV  $target_ip | awk '/^PORT/{flag=1} /^$/{flag=0} flag {print}'
