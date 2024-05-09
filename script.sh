@@ -2,6 +2,9 @@
 # This script:
 # 1) runs nmap scan on the target machine
 
-echo "Please enter the target IP: "
-read target_ip
-nmap -v $target_ip
+# echo -n "Please enter the target IP: "
+# read target_ip
+target_ip="10.0.0.219"
+
+echo
+nmap -v $target_ip | awk '/^PORT/{flag=1} /^$/{flag=0} flag {print}'
